@@ -11,22 +11,16 @@ XAMPP Control Panel v3.2.2 - phần mềm hỗ trợ sử dụng game này vì s
 - Nếu sử dụng câu lệnh git người dùng bắt buộc tạo một forlder với tên tùy đặt.
 - Thực hiện lệnh $ git clone https://github.com/NhanPhanKyanon/Pacman.git
 - Sau khi clone thành công dữ liệu của thư mục game sẽ nằm hoàn toàn trong thư mục này (thư mục bạn đã tạo trước đó).
-- Người dùng mở XAMPP Control Panel, nhấn "Start" - cột Action ứng với Apache-cột Module.
-- Tiếp thep người dùng vào trình duyệt web gõ  http://localhost:6040/  để vào game.
-•Ngoài ra:
-- Người dùng có thể nhấn vào README để đọc hướng dẫn sử dụng.
-- Muốn thực hiện cài chi tiết về code game trên vào file word " Hướng dẫn cài đặt Pacman". 
-## V. Lưu ý.
-Khi clone file về người sử dụng cần phải thay đổi đường dẫn cho nó.
-- Vào đường dẫn: "C:\xampp\apache\conf\extra" mở file "httpd-vhosts.conf" và thay đổi các đường dẫn cho nó.
- •Trong CONF file "httpd-vhosts.conf":
+- Người dùng mở XAMPP, thiệt lập các thông số sau vào file tương ứng: 
+
+•Trong CONF file "httpd-vhosts.conf":
        <VirtualHost *:6040>
             ServerAdmin webmaster@dummy-host2.example.com
-            DocumentRoot "D:/GamePacman/Pacman/pacman-canvas"
+            DocumentRoot "<đường dẫn đến thư mục pacman-canvas đã clone>"
             ServerName dummy-host2.example.com
             ErrorLog "logs/dummy-host2.example.com-error.log"
             CustomLog "logs/dummy-host2.example.com-access.log" common
-            <Directory "D:/GamePacman/Pacman/pacman-canvas">
+            <Directory "<đường dẫn đến thư mục pacman-canvas đã clone>">
                 Options Indexes FollowSymLinks MultiViews
                 AllowOverride all
                 Order Deny,Allow
@@ -34,9 +28,19 @@ Khi clone file về người sử dụng cần phải thay đổi đường dẫ
                 Require all granted
             </Directory>
          </VirtualHost>
-- Thực hiện sửa ở 'DocumentRoot' & 'DocumentRoot'.
+- Mở XAMPP, chọn Start ứng với dòng Apache
+- Tiếp thep người dùng vào trình duyệt web gõ  http://localhost:6040/  để vào game.
+
+•Ngoài ra:
+- Người dùng có thể nhấn vào README để đọc hướng dẫn sử dụng.
+- Muốn thực hiện cài chi tiết về code game trên vào file word " Hướng dẫn cài đặt Pacman". 
+
+## V. Lưu ý.
+Khi clone file về người sử dụng cần phải thay đổi đường dẫn cho nó.
+- Vào đường dẫn: "C:\xampp\apache\conf\extra" mở file "httpd-vhosts.conf" và thay đổi các đường dẫn cho nó khi cần thiết.
+- Thực hiện sửa ở 'DocumentRoot' & 'Directory'.
   + DocumentRoot "D:/GamePacman/Pacman/pacman-canvas" -> Thay đường dẫn của bạn vào đây.
-  + DocumentRoot "D:/GamePacman/Pacman/pacman-canvas" -> Thay đường dẫn của bạn vào đây. 
+  + Directory "D:/GamePacman/Pacman/pacman-canvas" -> Thay đường dẫn của bạn vào đây. 
 - Bạn có thể đổi port theo mong muốn nếu không muốn sử dụng: 6040. 
 Để đổi port trong XAMPP bạn hãy lần lượt thay đổi các 'Listen 6040' trong các file của "Config".
 
