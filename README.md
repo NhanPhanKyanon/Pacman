@@ -22,8 +22,8 @@ Khi clone file về người sử dụng cần phải thay đổi đường dẫ
 - Vào đường dẫn: "C:\xampp\apache\conf\extra" mở file "httpd-vhosts.conf" và thay đổi các đường dẫn cho nó.
 ### Trong CONF file "httpd-vhosts.conf":
  Code:
->   <VirtualHost *:6040>
->        ServerAdmin webmaster@dummy-host2.example.com
+`<VirtualHost *:6040>`
+`ServerAdmin webmaster@dummy-host2.example.com`
      >       DocumentRoot "D:/GamePacman/Pacman/pacman-canvas"
             ServerName dummy-host2.example.com
             ErrorLog "logs/dummy-host2.example.com-error.log"
