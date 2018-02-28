@@ -20,7 +20,8 @@ Trong trường hợp bạn muốn đổi localhost theo ý muốn thì nên s�
 ## V. Lưu ý.
 Khi clone file về người sử dụng cần phải thay đổi đường dẫn cho nó.
 - Vào đường dẫn: "C:\xampp\apache\conf\extra" mở file "httpd-vhosts.conf" và thay đổi các đường dẫn cho nó.
- •Trong CONF file "httpd-vhosts.conf":
+ ###•Trong CONF file "httpd-vhosts.conf":
+ Code:
        <VirtualHost *:6040>
             ServerAdmin webmaster@dummy-host2.example.com
             DocumentRoot "D:/GamePacman/Pacman/pacman-canvas"
@@ -35,6 +36,7 @@ Khi clone file về người sử dụng cần phải thay đổi đường dẫ
                 Require all granted
             </Directory>
          </VirtualHost>
+         
 - Thực hiện sửa ở 'DocumentRoot' & 'DocumentRoot'.
   + DocumentRoot "D:/GamePacman/Pacman/pacman-canvas" -> Thay đường dẫn của bạn vào đây.
   + DocumentRoot "D:/GamePacman/Pacman/pacman-canvas" -> Thay đường dẫn của bạn vào đây. 
