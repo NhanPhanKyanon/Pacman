@@ -11,7 +11,7 @@ Trong trường hợp bạn muốn đổi localhost theo ý muốn thì nên s�
 ### 1. Lấy bằng GitHub.
 - Dùng “Git bash here” để tải xuống file source trên thùng chứa trên gitHub. 
 - Tạo một forlder với tên tùy đặt để clone dữ liệu về đây.
-- Thực hiện lệnh   $ git clone https://github.com/NhanPhanKyanon/Pacman.git để lấy file game xuống máy tính của bạn. 
+- Thực hiện lệnh " $ git clone https://github.com/NhanPhanKyanon/Pacman.git " để lấy file game xuống máy tính của bạn. 
 - Sau khi clone thành công file game sẽ nằm thư mục bạn đã tạo trước đó.
 - Người dùng mở XAMPP Control Panel, nhấn "Start" - cột Action ứng với Apache-cột Module.
 - Tiếp thep người dùng vào trình duyệt web gõ  http://localhost:6040/  để vào game.
