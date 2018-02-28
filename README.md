@@ -3,7 +3,7 @@
 ## I. Mô tả mini game Pacman.
 Pacman là mini game mà người chơi phải điều khiển nhân vật của mình ăn những chấm trắng trên mọi đường đi và tránh sự truy đuổi của bọn quái vật. Game như một cuộc chạy đua với quái thú, người chơi phải né chúng và ăn hết những chấm tròn. Nếu vượt qua thử thách các gamer sẽ được nâng cấp (level) với mức độ khó tăng dần cho đến khi tất cả các vòng đều vượt qua bạn đã trở thành người chiến thắng rồi đấy!
 ## II. Cách chơi.
-Người chơi dùng các phím di chuyển cơ bản trên bàn phím: ->, <-, ^, v để di chuyển nhân vật của mình. Nhiệm vụ của bạn là tránh sự truy đuổi của quái thú khi chúng có màu: xanh, hồng, cam, đỏ,... Nếu chúng chuyển thành màu xám thì bạn có thể đi xuyên/ăn chúng. Cứ như thế cho đến khi không còn hạt gạo nào. Nếu vượt qua hết các level bạn sẽ là người chiến thắng.
+Người chơi dùng các phím di chuyển cơ bản trên bàn phím: >, <, ^, v để di chuyển nhân vật của mình. Nhiệm vụ của bạn là tránh sự truy đuổi của quái thú khi chúng có màu: xanh, hồng, cam, đỏ,... Nếu chúng chuyển thành màu xám thì bạn có thể đi xuyên/ăn chúng. Cứ như thế cho đến khi không còn hạt gạo nào. Nếu vượt qua hết các level bạn sẽ là người chiến thắng.
 ## III. Công cụ cần sử dụng.
 XAMPP Control Panel v3.2.2 - phần mềm hỗ trợ sử dụng game này vì source code của game được viết bằng ngôn ngữ php. 
 Trong trường hợp bạn muốn đổi localhost theo ý muốn thì nên sử dụng XAMPP kết hợp Sublime Text để có thể tùy chỉnh code dễ dàng.
