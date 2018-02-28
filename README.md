@@ -13,11 +13,13 @@ Trong trường hợp bạn muốn đổi localhost theo ý muốn thì nên s�
 - Tạo một forlder với tên tùy đặt để clone dữ liệu về đây.
 - Thực hiện lệnh " $ git clone https://github.com/NhanPhanKyanon/Pacman.git " để lấy file game xuống máy tính của bạn. 
 - Sau khi clone thành công file game sẽ nằm thư mục bạn đã tạo trước đó.
-- Người dùng mở XAMPP Control Panel, nhấn "Start" - cột Action ứng với Apache-cột Module.
-- Tiếp thep người dùng vào trình duyệt web gõ  http://localhost:6040/  để vào game.
+
 ### 2. Lấy bằng giao diện.
  Nếu không cài đặt git về máy bạn có cũng có thể tải chúng theo cách nhấn “Clone or download” và chờ tải.
-## V. Lưu ý.
+## V. Chơi game.
+- Người dùng mở XAMPP Control Panel, nhấn "Start" - cột Action ứng với Apache-cột Module.
+- Tiếp thep người dùng vào trình duyệt web gõ  http://localhost:6040/  để vào game.
+## VI. Lưu ý.
 Khi clone file về người sử dụng cần phải thay đổi đường dẫn cho nó.
 - Vào đường dẫn: "C:\xampp\apache\conf\extra" mở file "httpd-vhosts.conf" và thay đổi các đường dẫn cho nó.
 ### Trong CONF file "httpd-vhosts.conf":
