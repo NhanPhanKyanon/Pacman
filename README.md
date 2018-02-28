@@ -36,25 +36,7 @@ Khi clone file về người sử dụng cần phải thay đổi đường dẫ
 ###### Require all granted
 ###### </Directory>
 ###### </VirtualHost>
-         
- ### •Trong CONF file "httpd-vhosts.conf":
- Code:
-       <VirtualHost *:6040>
-            ServerAdmin webmaster@dummy-host2.example.com
-            DocumentRoot "D:/GamePacman/Pacman/pacman-canvas"
-            ServerName dummy-host2.example.com
-            ErrorLog "logs/dummy-host2.example.com-error.log"
-            CustomLog "logs/dummy-host2.example.com-access.log" common
-            <Directory "D:/GamePacman/Pacman/pacman-canvas">
-                Options Indexes FollowSymLinks MultiViews
-                AllowOverride all
-                Order Deny,Allow
-                Allow from all
-                Require all granted
-            </Directory>
-         </VirtualHost>
-                  
-         
+        
 - Thực hiện sửa ở 'DocumentRoot' & 'DocumentRoot'.
   + DocumentRoot "D:/GamePacman/Pacman/pacman-canvas" -> Thay đường dẫn của bạn vào đây.
   + DocumentRoot "D:/GamePacman/Pacman/pacman-canvas" -> Thay đường dẫn của bạn vào đây. 
